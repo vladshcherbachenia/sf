@@ -1,0 +1,17 @@
+{
+    "name": "vlad/admin",
+    "authors": [
+        {
+            "name": "Vlad Shcherbachenia",
+            "email": "vladshcherbachenia@gmail.com"
+        }
+    ],
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "app\\engine\\": "engine",
+            "app\\controllers\\": "controllers",
+            "app\\models\\": "models"
+        }
+    }
+}
